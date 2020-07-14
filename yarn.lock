@@ -5534,6 +5534,11 @@ loose-envify@^1.0.0:
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
 
+lottie-web@^5.6.10:
+  version "5.7.0"
+  resolved "https://registry.yarnpkg.com/lottie-web/-/lottie-web-5.7.0.tgz#628421df7a43c20a5171ac65bdc7bb4c499f8f37"
+  integrity sha512-mCj9KaVR1FdcaRuKB0oqKqC2R+awlqGgx38Sy4q3H0+aNPJ9Ut5LIvBNGyMHiZRpJlPcRQ1Mk//fp2bY3QYq1A==
+
 lru-cache@4.1.x:
   version "4.1.5"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-4.1.5.tgz#8bbe50ea85bed59bc9e33dcab8235ee9bcf443cd"
@@ -5928,6 +5933,13 @@ netmask@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/netmask/-/netmask-1.0.6.tgz#20297e89d86f6f6400f250d9f4f6b4c1945fcd35"
   integrity sha1-ICl+idhvb2QA8lDZ9Pa0wZRfzTU=
+
+ngx-lottie@~6.2.1:
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/ngx-lottie/-/ngx-lottie-6.2.1.tgz#a6751e0c49fa401e9bc5a6d5f33d01a6c89b881e"
+  integrity sha512-3Ly6J1OQXZ+gQEuCmPSwp6GMjd/5KYDtOyQGlnxiWl2EQFumW7zAxTEmRGfTHILvU7aRvebTM1yl5V6g2TqdgA==
+  dependencies:
+    tslib "^1.10.0"
 
 nice-try@^1.0.4:
   version "1.0.5"
