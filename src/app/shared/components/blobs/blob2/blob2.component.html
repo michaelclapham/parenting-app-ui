@@ -1,2 +1,7 @@
-<ng-lottie [options]="animOptions" (domLoaded)="animationCreated($event)">
-</ng-lottie>
+<div class="side-by-side">
+    <ng-lottie [options]="animOptions" (domLoaded)="animationCreated($event)">
+    </ng-lottie>
+    
+    <ng-lottie *ngIf="true" [options]="animOptions2">
+    </ng-lottie>
+</div>

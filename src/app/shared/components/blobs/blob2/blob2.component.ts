@@ -9,9 +9,15 @@ import { AnimationOptions } from 'ngx-lottie';
 export class Blob2Component implements OnInit {
 
   animOptions: AnimationOptions = {
-    path: "assets/lottie-anims/test_body_motion_only.json",
+    path: "assets/lottie-anims/test_rig_1.json",
     autoplay: true,
-    loop: 30
+    loop: true
+  };
+
+  animOptions2: AnimationOptions = {
+    path: "assets/lottie-anims/test_rig_1.json",
+    autoplay: true,
+    loop: true
   };
 
   // setInterval(() => { console.log("lolz ", $('g.empty_layer > g').transform.animVal[0].matrix); })
